@@ -15,8 +15,8 @@ public class PrivatehospitalApplication {
     public static void main(String[] args) {
         SpringApplication.run(PrivatehospitalApplication.class, args);
     }
-    @Bean
-    CommandLineRunner start(PatientRepository patientRepository){
+    //@Bean
+    /*CommandLineRunner start(PatientRepository patientRepository){
         return args -> {
             patientRepository.save(
                     new Patient(null,"Hassan",new Date(),false,12));
@@ -29,7 +29,7 @@ public class PrivatehospitalApplication {
             patientRepository.save(
                     new Patient(null,"Ahmed",new Date(),false,32));
             patientRepository.save(
-                    new Patient(null,"Reda",new Date(),true,55));
+                    new Patient(null,"Redaa",new Date(),true,55));
             patientRepository.save(
                     new Patient(null,"Amjad",new Date(),true,74));
             patientRepository.save(
@@ -38,5 +38,5 @@ public class PrivatehospitalApplication {
                 System.out.println(p.getNom());
             });
         };
-    }
+    }*/
 }
